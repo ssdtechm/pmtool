@@ -1,18 +1,13 @@
 package com.ssd.pm.tool.domain;
 
-import java.util.Date;
+import com.fasterxml.jackson.annotation.JsonFormat;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.PrePersist;
-import javax.persistence.PreUpdate;
+import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import java.util.Date;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
+
 
 @Entity
 public class Project {
